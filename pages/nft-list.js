@@ -1,6 +1,7 @@
 import WalletButton from "../Components/buttons/WalletButton"
 import GradientButton from "../Components/buttons/GradientButton"
 import NFT from "../Components/moleculars/NFT"
+import AddNFT from "../Components/moleculars/AddNFT"
 
 export default function NFTList() {
 
@@ -22,6 +23,7 @@ export default function NFTList() {
           <NFT title="DOGGY #4812" img_url="/2.png"></NFT>
           <NFT title="#8200" img_url="/1.png"></NFT>
           <NFT title="#8200" img_url="/1.png"></NFT>
+          <AddNFT></AddNFT>
         </div>
         <GradientButton title="Join a community manually" className="w-64 mx-auto bg-gray-300" className_text="text-transparent bg-clip-text bg-gradient-to-r from-color-1 to-color-2"></GradientButton>
       </div>
