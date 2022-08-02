@@ -1,30 +1,27 @@
-import Metamask from "../Icons/Metamask"
 import PhantomWallet from "../Icons/PhantomWallet"
 import Check from "../Icons/Check"
 import ArrowLeft from "../Icons/ArrowLeft"
 import GradientButton from "../buttons/GradientButton"
 import HowToCreate from "../moleculars/HowToCreate"
+import ConnectWallet from "../wallet/wallet-connect"
+import Link from 'next/link'
 
 const ConnectWalletPage = () => {
   return (
     <div className="bg-white h-screen rounded-md p-8">
       <div className="flex justify-between items-end">
-        <div className="flex justify-between items-center">
-          <ArrowLeft></ArrowLeft>
-          <span>Back</span>
-        </div>
+        <Link href="/nft-list">
+          <div className="flex justify-between items-center" >
+            <ArrowLeft></ArrowLeft>
+            <span>Back</span>
+          </div>
+        </Link>
         <span className="font-bold text-xl">Connect your wallet</span>
         <span></span>
       </div>
       <div className="max-w-3xl mx-auto">
         <div className="flex p-8 justify-between">
-          <div>
-            <div className="rounded-full border-color-1 border-2 flex justify-center p-8 bg-gray-100">
-              <Metamask />
-            </div>
-            <div className="text-center m-4">Metamask wallet</div>
-            <GradientButton title="Connect" className="rounded-full bg-gradient-to-r from-color-1 to-color-2"></GradientButton>
-          </div>
+          <ConnectWallet />
           <div>
             <div className="rounded-full border-color-1 border-2 flex justify-center p-8 bg-gray-100">
               <PhantomWallet />
