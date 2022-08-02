@@ -1,5 +1,5 @@
 import Metamask from "../Icons/Metamask"
-import RoundedButton from "../buttons/RoundedButton"
+import GradientButton from "../buttons/GradientButton"
 import HowToCreate from "../moleculars/HowToCreate"
 
 const ConnectWalletPage = () => {
@@ -17,14 +17,14 @@ const ConnectWalletPage = () => {
               <Metamask />
             </div>
             <div className="text-center m-4">Metamask wallet</div>
-            <RoundedButton title="Connect"></RoundedButton>
+            <GradientButton title="Connect" className="rounded-full"></GradientButton>
           </div>
           <div>
             <div className="rounded-full border-color-1 border-2 flex justify-center p-8">
               <Metamask />
             </div>
             <div className="text-center m-4">Phantom wallet</div>
-            <RoundedButton title="Connect"></RoundedButton>
+            <GradientButton title="Connect" className="rounded-full"></GradientButton>
           </div>
         </div>
         <div className="text-center">

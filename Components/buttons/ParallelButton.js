@@ -1,4 +1,4 @@
-const Button1 = ({title}) => {
+const ParallelButton = ({title}) => {
 	return (
 		<div className="bg-gradient-to-r from-gray-100 to-red-100 flex justify-center p-2 transform -skew-x-12 my-4">
 			<span className="font-bold text-[#4776E6]">{ title }</span>
@@ -6,4 +6,4 @@ const Button1 = ({title}) => {
 	)
 }
 
-export default Button1
+export default ParallelButton
