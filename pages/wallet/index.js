@@ -1,16 +1,15 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import SideBar from "../../Components/Layouts/SideBar"
+import ConnectWalletPage from "../../Components/Layouts/ConnnectWalletPage"
 
 export default function Wallet() {
   return (
-    <div>
+    <div className="px-16 py-8 bg-gray-200 h-screen">
         <div className='grid grid-cols-5 gap-4'>
-            <div className=''><></>Back</div>
+            <div className='col-span-1'>
+              <SideBar></SideBar>
+            </div>
             <div className='col-span-4'>
-                <div>Connect Your Wallet</div>
-                <div>wallet</div>
-                <div>reminder</div>
-                <div>how to create</div>
+              <ConnectWalletPage></ConnectWalletPage>
             </div>
         </div>
     </div>
