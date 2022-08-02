@@ -1,5 +1,5 @@
-import SideBar from "../../Components/Layouts/SideBar"
-import ConnectWalletPage from "../../Components/Layouts/ConnnectWalletPage"
+import SideBar from "../../Components/layouts/SideBar"
+import ConnectWalletPage from "../../Components/layouts/ConnnectWalletPage"
 
 export default function Wallet() {
   return (

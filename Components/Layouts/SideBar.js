@@ -1,4 +1,4 @@
-import Button1 from "./Buttons/Button1"
+import Button1 from "../buttons/Button1"
 
 const SideBar = () => {
 	return (
@@ -9,6 +9,7 @@ const SideBar = () => {
 			<hr className="my-4"></hr>
 			<div className="">
 				<Button1 title="Rules"></Button1>
+				<Button1 title="About"></Button1>
 			</div>
 		</div>
 	)
