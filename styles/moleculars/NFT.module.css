@@ -1,0 +1,12 @@
+.effective-part {
+    width: 0px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.img-container:hover .effective-part {
+    opacity: 1;
+    width: 210px;
+}
